@@ -203,13 +203,10 @@
   will-change: transform, opacity;
 }
 
-/* SVG BASE */
 .recharts-surface {
   cursor: pointer;
 }
 
-
-/* TOOLTIP (quando passar o mouse) */
 .recharts-tooltip-wrapper {
   outline: none;
 }
@@ -223,7 +220,6 @@
   backdrop-filter: blur(10px);
 }
 
-/* TEXTO TOOLTIP */
 .recharts-tooltip-label {
   color: #9ca3af !important;
   font-size: 0.8rem;
@@ -233,23 +229,19 @@
   font-weight: 600;
 }
 
-/* GARANTE QUE LABEL FIQUE POR CIMA VISUALMENTE */
 .recharts-layer.recharts-pie-labels {
   pointer-events: none;
 }
 
-/* LABEL MAIS VISÍVEL */
 .recharts-text {
   fill: #ffffff !important;
   font-weight: 600;
 }
 
-/* SOMBRA PRA LEGIBILIDADE */
 .recharts-text tspan {
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
 }
 
-/* LINHA DA LABEL */
 .recharts-pie-label-line {
   stroke: rgba(255, 255, 255, 0.4);
 }
